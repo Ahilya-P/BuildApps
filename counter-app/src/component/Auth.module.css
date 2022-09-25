@@ -1,0 +1,39 @@
+.auth{
+    margin: 5rem auto;
+    box-shadow: 0 1px 8px rgba(224, 205, 205, 0.2);
+    width:40rem;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #f4f0fa;
+}
+.control{
+    margin-bottom: 0.5rem;
+}
+
+.control label{
+    display: block;
+    color: #616161;
+    text-transform:inherit;
+    margin-bottom: 0.5rem;
+    text-align: start;
+    margin-left: 2rem;
+}
+
+.control input{
+    display: block;
+    width: 30rem;
+    margin: auto;
+    border-radius: 4px;
+    padding: 0.65rem;
+    border: 1px solid #ccc;
+
+}
+.btn{
+    background-color: rgb(22, 13, 109);
+    color: white;
+    border-radius: 0.75rem;
+    height: 2.5rem;
+    width: 6rem;
+    font-size: 1rem;
+    text-align: center ;
+}
