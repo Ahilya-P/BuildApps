@@ -8,7 +8,7 @@ import AllQuotes from './pages/AllQuotes';
 import NewQuotes from './pages/NewQuotes';
 import QuotesDetails from './pages/QuotesDetails';
 import LayoutMain from './components/layout/LayoutMain';
-
+import NotFound from "./pages/NotFound"
 function App() {
   return (
     <>
@@ -29,6 +29,8 @@ function App() {
           </Route>
         </Switch>
       </main> */}
+
+
       <LayoutMain>
         <Switch>
           <Route path="/" exact>
@@ -42,6 +44,10 @@ function App() {
           </Route>
           <Route path="/new-quotes">
             <NewQuotes />
+          </Route>
+          <Route path="*">
+            {/* //match all * route */}
+            <NotFound />
           </Route>
         </Switch>
       </LayoutMain>

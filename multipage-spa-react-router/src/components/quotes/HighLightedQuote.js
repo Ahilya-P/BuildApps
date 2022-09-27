@@ -11,4 +11,4 @@ const HighLightedQuote = (props) =>{
         </>
     )
 }
-export default HighLightedQuote
+export default HighLightedQuote;
